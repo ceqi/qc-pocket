@@ -6,4 +6,4 @@ permalink: /about/
 QC - Software Engineer
 
 
-This site is my notes and Reading Material collection point
+This site is my notes and reading material collection point
