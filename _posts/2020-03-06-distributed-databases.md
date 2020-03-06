@@ -14,4 +14,4 @@ These are the links I find useful for understanding Distributed Systems
 
 [How Cassandra balances consistency, availiability and performance](https://www.datastax.com/blog/2019/05/how-apache-cassandratm-balances-consistency-availability-and-performance)  
 
-[Availability and partition tolerance](https://stackoverflow.com/questions/12346326/cap-theorem-availability-and-partition-tolerance)  
+[Availability and partition tolerance ✅](https://stackoverflow.com/questions/12346326/cap-theorem-availability-and-partition-tolerance)  
