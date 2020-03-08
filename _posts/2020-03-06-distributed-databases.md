@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Distributed Databases Articles"
-date:   2020-03-06 15:19:01 
+date:   2020-03-08 22:30:01 
 categories: [Distributed Systems]
 tags: 
 ---
