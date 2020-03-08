@@ -27,7 +27,7 @@ These are the links I find useful for understanding Distributed Systems
   - lack of native support, lack of docs  
 
 Sharing techniques:
-- key based: balanced shards, tricky when to dynamically add or remove nodes
+- key based: balanced shards, dynamically add or remove nodes is tricky
 - range based: simple, unbalanced shards
 - directory based: flexible, lookup table has impact to performance, single point of failure  
 
@@ -46,6 +46,16 @@ Sharding can be a great solution to scale database horizontally, but adds a grea
 
 
 [How Cassandra balances consistency, availability and performance](https://www.datastax.com/blog/2019/05/how-apache-cassandratm-balances-consistency-availability-and-performance)  
+
+Distributed databases tend to be either "CP" or "AP" since network failure is inevitable (partition tolerance is needed) 
+
+"AP" system (Availability, Partition Tolerance)
+
+Replicas ensure data availability, but consistency can be tuned
+
+High consistency helps ensure data accuracy, it impacts latency
+
+Cassandra is configurable, can manage trade-offs between consistency, availability
 
 [Brewer’s Conjecture and the Feasibility of Consistent, Available, Partition-Tolerant Web Services](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.67.6951&rep=rep1&type=pdf)
 
