@@ -10,7 +10,7 @@ tags:
 
 Concept from paper [Consistent hashing and random trees](https://github.com/papers-we-love/papers-we-love/blob/master/distributed_systems/consistent-hashing-and-random-trees.pdf)
 
-Consistent hashing solves the problem that caches in a non-fixed collection of servers where caching is through hashing.  
+Consistent hashing solves the problem that caching in a non-fixed collection of servers where caching is through hashing.  
 
 Cache / Hash table becomes so big that one server can't fit, so how to store it?
 
