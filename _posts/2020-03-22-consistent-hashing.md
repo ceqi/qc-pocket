@@ -18,11 +18,11 @@ Q: which server to store a key?
 A: server = hash_func(key) modulo
 N where N is number of servers.
 
-Problem for this approach is that when rehashing, most keys are rehashed resulting in cache miss and performance hit.  
+Problem for this approach is that when rehashing, most keys are rehashed resulting in cache miss (horizontal scalability problem) and performance hit (non-uniform distribution problem).  
 
 Consistent hashing is a distributed hashing mechanism that's not depended on number of servers.
 
-Keys and servers are assigned on a `Hash Ring`, a virtual circle. 
+Keys and servers are assigned on a `Hash Ring`, a virtual circle. Servers are put on the ring through hash functions. Find server by travelling clock-wise on the ring. This solves the cache miss issue, only (number of keys / number of servers) keys need to be remapped.
 
-Virtual nodes to balance the load.
+Virtual nodes or replicas to balance the load. As the number of replicas or virtual nodes in the hash ring increase, the key distribution becomes more and more uniform.
 
