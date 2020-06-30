@@ -6,7 +6,7 @@ categories:
 tags: 
 ---
 
-Concept from paper [Consistent hashing and random trees](https://github.com/papers-we-love/papers-we-love/blob/master/distributed_systems/consistent-hashing-and-random-trees.pdf)
+Concept from paper [Consistent hashing and random trees](https://www.akamai.com/us/en/multimedia/documents/technical-publication/consistent-hashing-and-random-trees-distributed-caching-protocols-for-relieving-hot-spots-on-the-world-wide-web-technical-publication.pdf)
 
 Consistent hashing solves the problem that caching in a non-fixed collection of servers where caching is through hashing.  
 
